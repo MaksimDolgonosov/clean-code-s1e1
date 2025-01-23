@@ -19,7 +19,8 @@ body {
 }
 
 @media (max-width:768px) {
-  .info { text-align: center;
+  .info { 
+    text-align: center;
 }
 }
 .add-item {
@@ -39,7 +40,8 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 input,button{
@@ -74,8 +76,8 @@ input[type="text"] {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -129,7 +131,7 @@ button.dlt img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
